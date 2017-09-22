@@ -97,7 +97,7 @@
   }
 
   .banner {
-          background: url('https://i.pinimg.com/originals/c7/19/07/c71907b930128ed88d1329bdd8ad3cb0.jpg') no-repeat center center scroll;
+      background: url('<?php echo base_url("assets/images/narelle-background.jpg") ?>') no-repeat center center scroll;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       /*background-size: cover;*/
@@ -217,7 +217,7 @@
       </div>
     </header>
 
-    <section class="content-section-a">
+    <section class="content-section-a" style="background-color: #fffdd0;">
 
       <div class="container">
         <div class="row">
@@ -239,23 +239,44 @@
         </div>
 
       </div>
-      <!-- /.container -->
     </section>
 
     <section class="content-section-b">
 
       <div class="container">
 
-        <div class="row">
-          <div class="col-lg-5 mr-auto order-lg-2">
-            <hr class="section-heading-spacer">
+        <div class="row" style="margin-left:50px;">
+          <div>
             <div class="clearfix"></div>
-            <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-            <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by
-              <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+            <h2>One to One session</h2>
+            <h4>One to One session - Face to Face in person or via Skype/FaceTime</h4>
+          <i><p style="font-size: 20px;">Each session is individually tailored to you, in order to get the best result.</p></i><br>
+          <h4>Topics:</h4>
+          <div class="col-lg-5 ml-auto" style="display: inline-block;">
+            <ul>
+              <li>Anxiety</li>
+              <li>confidence building</li>
+              <li>controlling negative inner chatter</li>
+              <li>empowering</li>
+              <li>Insomnia</li>        
+              <li>losing weight</li>
+              <li>personal development</li>
+              <li>phobias</li>
+              <li>procrastination</li>
+            </ul>
           </div>
-          <div class="col-lg-5 ml-auto order-lg-1">
-            <img class="img-fluid" src="img/dog.png" alt="">
+          <div class="col-lg-5 mr-auto" style="display: inline-block;">
+            <ul>
+              <li>public speaking</li>
+              <li>relationship anxieties</li>
+              <li>stress</li>
+              <li>unwanted feelings anger</li>
+              <li>frustration</li>
+              <li>shame</li>
+              <li>guilt</li>
+              <li>abandonment</li>
+              <li>regret</li>     
+            </ul>
           </div>
         </div>
 
