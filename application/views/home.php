@@ -197,7 +197,7 @@
               <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#">Blog</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -217,7 +217,7 @@
       </div>
     </header>
 
-    <section class="content-section-a" style="background-color: #fffdd0;">
+    <section class="content-section-a"  >
 
       <div class="container">
         <div class="row">
@@ -250,7 +250,7 @@
             <div class="clearfix"></div>
             <h2>One to One session</h2>
             <h4>One to One session - Face to Face in person or via Skype/FaceTime</h4>
-          <i><p style="font-size: 20px;">Each session is individually tailored to you, in order to get the best result.</p></i><br>
+          <i><p style="font-size: 20px;">Each session is individually tailored to you, in order to get the best result.</p></i>
           <h4>Topics:</h4>
           <div class="col-lg-5 ml-auto" style="display: inline-block;">
             <ul>
@@ -263,12 +263,11 @@
               <li>personal development</li>
               <li>phobias</li>
               <li>procrastination</li>
+              <li>public speaking</li>
             </ul>
           </div>
           <div class="col-lg-5 mr-auto" style="display: inline-block;">
             <ul>
-              <li>public speaking</li>
-              <li>relationship anxieties</li>
               <li>stress</li>
               <li>unwanted feelings anger</li>
               <li>frustration</li>
@@ -276,15 +275,15 @@
               <li>guilt</li>
               <li>abandonment</li>
               <li>regret</li>     
+              <li>relationship anxieties</li>
+              <li>removing your negative feelings attached to your negative memories</li>
             </ul>
           </div>
+          <br><br>
+          <p>Usually only one session is needed. After the session people told me they felt relaxed, calmer, lighter, confident and positive.</p>
         </div>
-
       </div>
-      <!-- /.container -->
-
     </section>
-    <!-- /.content-section-b -->
 
     <section class="content-section-a">
 
@@ -294,19 +293,14 @@
           <div class="col-lg-5 ml-auto">
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
-            <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
-            <p class="lead">This template features the 'Lato' font, part of the
-              <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as
-              <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
+            <h2 class="section-heading">Lorum Ipsum</h2>
+            <p class="lead">The site and text will continue...</p>
           </div>
           <div class="col-lg-5 mr-auto ">
             <img class="img-fluid" src="img/phones.png" alt="">
           </div>
         </div>
-
       </div>
-      <!-- /.container -->
-
     </section>
 
     <footer>
