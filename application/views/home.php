@@ -218,7 +218,6 @@
     </header>
 
     <section class="content-section-a"  >
-
       <div class="container">
         <div class="row">
           <div class="col-lg-6 ml-auto">
@@ -237,7 +236,6 @@
             <img class="img-fluid" style="border-radius: 30px; height: 350px; margin-left: 70px;" src="<?php echo base_url("/assets/images/narelle.jpg") ?>" alt="">
           </div>
         </div>
-
       </div>
     </section>
 
@@ -286,18 +284,77 @@
     </section>
 
     <section class="content-section-a">
-
       <div class="container">
-
         <div class="row">
-          <div class="col-lg-5 ml-auto">
+          <div class="text-center">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">My Story (My testimonial)</h2>
+            <p>&quot;I was overweight, caused by emotional over eating and not happy. I’ve used
+            the techniques myself. Working through my emotional baggage using NLP
+            and Havening to clear out my negatives feelings attached to upsetting
+            memories. I no longer have the need to overeat.&quot;</p>
+          </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="content-section-b"  >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 ml-auto">
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
-            <h2 class="section-heading">Lorum Ipsum</h2>
-            <p class="lead">The site and text will continue...</p>
-          </div>
-          <div class="col-lg-5 mr-auto ">
-            <img class="img-fluid" src="img/phones.png" alt="">
+            <h2 class="section-heading">Wellbeing</h2>
+            <h4><u>Wellbeing for individuals</u></h4>
+            <ul>
+              <li>Are you keen to reduce your stress levels?</li>
+              <li>Focused on improving your wellbeing?</li>
+              <li>Are you keen to build up your resilience?</li>
+              <li>Focused on being a better you?</li>
+            </ul>
+            <p>A feel good factor, leaving you relaxed, positive and confident. Using Skype
+            or FaceTime in the comfort of your own home.</p>
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h4><u>Wellbeing workshop for groups</u></h4>
+            <p>When you come to see me, we will start by creating a safe environment
+            where we can share our ideas and experiences.</p>
+            <p>After that we will work together on ways to focus on positives things in our
+            lives. I will show you new and exciting techniques to make your lives even
+            better.</p>
+            <p>This workshop will:</p>
+            <ul>
+              <li>Have a positive impact on your health and wellbeing.</li>
+              <li>Leave you feeling relaxed and happy freeing yourself from negative
+              emotions.</li>
+              <li>Help you focus and prioritise.</li>
+            </ul>
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h4><u>Wellbeing for organisations</u></h4>
+            <p>Organisations are losing days due to stress related problems in the work place.
+            Last year 17 million work days were lost to stress-related problems costing 2.4
+            billion pounds.</p>
+            <ul>
+              <li>Are you keen to reduce absenteeism?</li>
+              <li>Focused on supporting the wellbeing of your employees?</li>
+              <li>Are you keen to improve employee engagement across your
+              organisation?</li>
+              <li>Focused on providing a better work environment?</li>
+            </ul>
+            <p>The workshop will:</p>
+            <ul>
+              <li>Have a positive impact on the health and wellbeing of your
+              employees.</li>
+              <li>Free people from negative emotions and support them to create the
+              balance they need to succeed in all areas of their life.</li>
+              <li>Support your employees in achieving the work-life balance and in
+              return your organisation can expect to see an improvement in
+              employee engagement. Which in turn can lead to increased staff
+              retention and a reduction in stress-related illnesses and absenteeism.</li>
+            </ul>
+            <p>Organisations WILL get a more productive workforce, increased profits and
+            increase the wellbeing of your employees.</p>
           </div>
         </div>
       </div>
