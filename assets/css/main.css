@@ -1,0 +1,273 @@
+<style>
+  body, html {
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.3px;
+  }
+
+  body, h1, h2, h3, h4, h5, h6, p { 
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+  }
+
+  .intro-message {
+    position: relative;
+    padding-top: 5%;
+  }
+
+  .intro-message>h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 5em;
+  }
+
+  .intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .intro-social-buttons i {
+    font-size: 80%;
+  }
+
+  @media(max-width:767px) {
+    .intro-message {
+      padding-bottom: 15%;
+    }
+    .intro-message>h1 {
+      font-size: 3em;
+    }
+    ul.intro-social-buttons>li {
+      display: block;
+      margin-bottom: 20px;
+      padding: 0;
+    }
+    ul.intro-social-buttons>li:last-child {
+      margin-bottom: 0;
+    }
+    .intro-divider {
+      width: 100%;
+    }
+  }
+
+  .network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+
+  .content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+  }
+
+  .content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+  }
+
+  .section-heading {
+    margin-bottom: 30px;
+  }
+
+  .section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+  }
+
+  .banner {
+      background: url('<?php echo base_url("/assets/images/narelle-background2.jpg") ?>') no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      height: 320px;
+      -o-background-size: cover;
+      text-align: center;
+      /*border-bottom: solid black 0.1px;
+      border-top: solid black 0.5px;*/
+  }
+
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+  }
+
+  .banner ul {
+    margin-bottom: 0;
+  }
+
+  .banner-social-buttons {
+    float: right;
+    margin-top: 0;
+  }
+
+  @media(max-width:1199px) {
+    ul.banner-social-buttons {
+      float: left;
+      margin-top: 15px;
+    }
+  }
+
+  @media(max-width:767px) {
+    .banner h2 {
+      margin: 0;
+      text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+      font-size: 3em;
+    }
+    ul.banner-social-buttons>li {
+      display: block;
+      margin-bottom: 20px;
+      padding: 0;
+    }
+    ul.banner-social-buttons>li:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+  }
+
+  p.copyright {
+    margin: 15px 0 0;
+  }
+
+  .navbar {
+    border-bottom: 0.5px solid gray;
+  }
+
+  .blockquote-green{
+    display:block;
+    background: #fff;
+    padding: 15px 20px 15px 45px;
+    margin: 0 0 20px;
+    position: relative;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #666;
+    text-align: justify;
+    border-left: 15px solid green;
+    border-right: 2px solid green;
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 2px 2px 15px #ccc;
+  }
+
+  .blockquote-blue{
+    display:block;
+    background: #fff;
+    padding: 15px 20px 15px 45px;
+    margin: 0 0 20px;
+    position: relative;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #666;
+    text-align: justify;
+    border-left: 15px solid navy;
+    border-right: 2px solid navy;
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 2px 2px 15px #ccc;
+  }
+
+  .blockquote-orange{
+    display:block;
+    background: #fff;
+    padding: 15px 20px 15px 45px;
+    margin: 0 0 20px;
+    position: relative;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #666;
+    text-align: justify;
+    border-left: 15px solid orange;
+    border-right: 2px solid orange;
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 2px 2px 15px #ccc;
+  }
+
+  blockquote::before{
+    content: "\201C"; 
+    font-family: Georgia, serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #999;
+    position: absolute;
+    left: 10px;
+    top:5px;
+  }
+
+  blockquote::after{
+    content: "";
+  }
+
+  .quote-badge{
+      background-color: rgba(0, 0, 0, 0.2);   
+  }
+
+  .quote-box-blue{
+      overflow: hidden;
+      margin-top: -50px;
+      padding-top: -100px;
+      border-radius: 17px;
+      background-color: #4ADFCC;
+      margin-top: 25px;
+      color:white;
+      box-shadow: 2px 2px 2px 2px #E0E0E0;
+      width: 80%;
+  }
+
+  .quote-box-orange{    
+      overflow: hidden;
+      margin-top: -50px;
+      padding-top: -100px;
+      border-radius: 17px;
+      background-color: orange;
+      margin-top: 25px;
+      color:white;
+      box-shadow: 2px 2px 2px 2px #E0E0E0;
+      width: 80%;
+  }
+
+  .quote-box-green{    
+      overflow: hidden;
+      margin-top: -50px;
+      padding-top: -100px;
+      border-radius: 17px;
+      background-color: green;
+      margin-top: 25px;
+      color:white;
+      box-shadow: 2px 2px 2px 2px #E0E0E0;
+      width: 80%;
+  }
+
+  .quotation-mark{
+      margin-top: -10px;
+      font-weight: bold;
+      font-size:75px;
+      color:white;
+      font-family: "Times New Roman", Georgia, Serif;
+      
+  }
+
+  .quote-text{
+      margin-left: 20px;
+      margin-right: 15px;
+      font-size: 17px;
+      margin-top: -65px;
+  }
+
+  .quotes {
+    margin-right: 100px;
+  }
+
+</style>
