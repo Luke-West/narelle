@@ -68,6 +68,7 @@
         <div class="intro-message">
           <h1>Narelle Summers</h1>
           <i><h3 style="margin-top: 15px; margin-left: 10%; display: inline-block;">Emotional Wellbeing Coach</h3></i>
+          <img src="<?= base_url("/assets/images/unlock_world.png") ?>" style="height: 50px; z-index: -1; margin-left: 30px">
           <h4 style="margin-top:15px; display: inline-block;  margin-left: 10%;">NLP Master Practitioner and Havening Techniques Practitioner</h4>
         </div>
       </div>
