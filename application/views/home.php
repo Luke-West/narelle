@@ -7,9 +7,272 @@
     border-top: 1px solid gray;
     color: black;
     height: 375px;
-    background: url('<?php echo base_url("assets/images/narelle-background2.jpg") ?>') no-repeat center center;
+    background: url('<?php echo base_url("assets/images/background3.png") ?>') no-repeat center center;
     background-size: cover;
   }
+
+  <style>
+  body, html {
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.3px;
+  }
+
+  body, h1, h2, h3, h4, h5, h6, p { 
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+  }
+
+  .intro-message {
+    position: relative;
+    padding-top: 5%;
+  }
+
+  .intro-message>h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 5em;
+  }
+
+  .intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .intro-social-buttons i {
+    font-size: 80%;
+  }
+
+  @media(max-width:767px) {
+    .intro-message {
+      padding-bottom: 15%;
+    }
+    .intro-message>h1 {
+      font-size: 3em;
+    }
+    ul.intro-social-buttons>li {
+      display: block;
+      margin-bottom: 20px;
+      padding: 0;
+    }
+    ul.intro-social-buttons>li:last-child {
+      margin-bottom: 0;
+    }
+    .intro-divider {
+      width: 100%;
+    }
+  }
+
+  .network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+
+  .content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+  }
+
+  .content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+  }
+
+  .section-heading {
+    margin-bottom: 30px;
+  }
+
+  .section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+  }
+
+  .banner {
+      background: url('<?php echo base_url("/assets/images/background3.png") ?>') no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      height: 320px;
+      -o-background-size: cover;
+      text-align: center;
+      /*border-bottom: solid black 0.1px;
+      border-top: solid black 0.5px;*/
+  }
+
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+  }
+
+  .banner ul {
+    margin-bottom: 0;
+  }
+
+  .banner-social-buttons {
+    float: right;
+    margin-top: 0;
+  }
+
+  @media(max-width:1199px) {
+    ul.banner-social-buttons {
+      float: left;
+      margin-top: 15px;
+    }
+  }
+
+  @media(max-width:767px) {
+    .banner h2 {
+      margin: 0;
+      text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+      font-size: 3em;
+    }
+    ul.banner-social-buttons>li {
+      display: block;
+      margin-bottom: 20px;
+      padding: 0;
+    }
+    ul.banner-social-buttons>li:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+  }
+
+  p.copyright {
+    margin: 15px 0 0;
+  }
+
+  .navbar {
+    border-bottom: 0.5px solid gray;
+  }
+
+  .blockquote-green{
+    display:block;
+    background: #fff;
+    padding: 15px 20px 15px 45px;
+    margin: 0 0 20px;
+    position: relative;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #666;
+    text-align: justify;
+    border-left: 15px solid green;
+    border-right: 2px solid green;
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 2px 2px 15px #ccc;
+  }
+
+  .blockquote-blue{
+    display:block;
+    background: #fff;
+    padding: 15px 20px 15px 45px;
+    margin: 0 0 20px;
+    position: relative;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #666;
+    text-align: justify;
+    border-left: 15px solid navy;
+    border-right: 2px solid navy;
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 2px 2px 15px #ccc;
+  }
+
+  .blockquote-orange{
+    display:block;
+    background: #fff;
+    padding: 15px 20px 15px 45px;
+    margin: 0 0 20px;
+    position: relative;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #666;
+    text-align: justify;
+    border-left: 15px solid orange;
+    border-right: 2px solid orange;
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 2px 2px 15px #ccc;
+  }
+
+  blockquote::after{
+    content: "";
+  }
+
+  .quote-badge{
+      background-color: rgba(0, 0, 0, 0.2);   
+  }
+
+  .quote-box-blue{
+      overflow: hidden;
+      margin-top: -50px;
+      padding-top: -100px;
+      border-radius: 17px;
+      background-color: purple;
+      margin-top: 25px;
+      color:white;
+      box-shadow: 2px 2px 2px 2px #E0E0E0;
+      width: 80%;
+  }
+
+  .quote-box-orange{    
+      overflow: hidden;
+      margin-top: -50px;
+      padding-top: -100px;
+      border-radius: 17px;
+      background-color: pink;
+      margin-top: 25px;
+      color:white;
+      box-shadow: 2px 2px 2px 2px #E0E0E0;
+      width: 80%;
+  }
+
+  .quote-box-green{    
+      overflow: hidden;
+      margin-top: -50px;
+      padding-top: -100px;
+      border-radius: 17px;
+      background-color: pink;
+      margin-top: 25px;
+      color:white;
+      box-shadow: 2px 2px 2px 2px #E0E0E0;
+      width: 80%;
+  }
+
+  .quotation-mark{
+      margin-top: -10px;
+      font-weight: bold;
+      font-size:75px;
+      color:white;
+      font-family: "Times New Roman", Georgia, Serif;
+      
+  }
+
+  .quote-text{
+      margin-left: 20px;
+      margin-right: 15px;
+      font-size: 14px;  
+      margin-top: -65px;
+  }
+
+  .quotes {
+    margin-right: 100px;
+  }
+
+</style>
 </style>
 
 <!DOCTYPE html>
@@ -22,7 +285,7 @@
     <meta name="author" content="">
 
     <title>Narelle Summers</title>
-    <link href="<?php echo(base_url("/assets/css/main.css")) ?>" rel="stylesheet" type="text/css">
+    <!-- <link href="<?php echo(base_url("/assets/css/main.css")) ?>" rel="stylesheet" type="text/css"> -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -68,7 +331,6 @@
         <div class="intro-message">
           <h1>Narelle Summers</h1>
           <i><h3 style="margin-top: 15px; margin-left: 10%; display: inline-block;">Emotional Wellbeing Coach</h3></i>
-          <img src="<?= base_url("/assets/images/unlock_world.png") ?>" style="height: 50px; z-index: -1; margin-left: 30px">
           <h4 style="margin-top:15px; display: inline-block;  margin-left: 10%;">NLP Master Practitioner and Havening Techniques Practitioner</h4>
         </div>
       </div>
@@ -108,41 +370,29 @@
           <i><p style="font-size: 20px;">Each session is individually tailored to you, in order to get the best result.</p></i>
           <div class="quotes container">
               <img class="pull-right" style="border-radius: 7px; display: inline-block; margin-top: 35px;" src="http://narellesummers.co.uk/Narelle_Summers/-_files/droppedImage.png">
-              <blockquote class="quote-box-green pull-left">
-                <p class="quotation-mark">
-                  “
-                </p>
-                <p class="quote-text">
-                  Narelle treated me for a long-standing and severe phobia of snakes. I could not even look at a picture of a snake without my stomach churning. After a very short 10-15 minutes Havening session with Narelle, I felt confident enough to touch and handle a very curious corn snake. It felt warm and soft and not at all what I thought it would. Narelle was warm, generous, confident, capable and thoroughly professional. During my session, I became aware of a sensation of wanting to release all that fear I had been carrying around for so long and with Narelle's support and encouragement, I was able to do so. If you are thinking of trying Havening I would urge you to try Havening with Narelle; she is a wonderfully gifted and empathetic healer. Thank you Narelle. 
+              <blockquote class="pull-left col-sm-2 col-md-10 col-lg-10" style="margin-top: 50px; display: inline-block;">
+                "Narelle treated me for a long-standing and severe phobia of snakes. I could not even look at a picture of a snake without my stomach churning. After a very short 10-15 minutes Havening session with Narelle, I felt confident enough to touch and handle a very curious corn snake. It felt warm and soft and not at all what I thought it would. Narelle was warm, generous, confident, capable and thoroughly professional. During my session, I became aware of a sensation of wanting to release all that fear I had been carrying around for so long and with Narelle's support and encouragement, I was able to do so. If you are thinking of trying Havening I would urge you to try Havening with Narelle; she is a wonderfully gifted and empathetic healer. Thank you Narelle."
                 </p>
                 <hr>
-                <p style="margin-left: 20px;"> Nancy Smyth <br>
+                <p class="pull-right"> Nancy Smyth <br>
                 Pre-School Assistant, Hawkhurst</p>
               </blockquote>
               <div class="clearfix"></div>
               <img class="pull-left" style="border-radius: 7px; display: inline-block; margin-top: 35px;" src="http://narellesummers.co.uk/Narelle_Summers/-_files/Dorris.jpg">
-              <blockquote class="quote-box-blue pull-right" style="display: inline-block;">
-                <p class="quotation-mark">
-                  “
-                </p>
-                <p class="quote-text">
+              <blockquote class="pull-left col-sm-10 col-md-10 col-lg-10" style="margin-top: 35px; display: inline-block; margin-left: 15px;">
                   I had a brain haemorrhage, 10 hours surgery and had a clip put in my brain 11 years ago. I was told I would have headaches most days which I did. Narelle used a NLP technique with me by creating a positive image in my mind of a healthy brain which has helped me remain free from headaches and painkillers. To strengthen my image I was put into a very relaxed state of mind. When I think I feel a headache coming on I think of that positive image and it goes away.
                 </p>
                 <hr>
-                <p style="margin-left: 20px;"> Doris, Retired<br>
+                <p class="pull-left"> Doris, Retired<br>
                     West Yorkshire</p>
               </blockquote>       
               <div class="clearfix"></div>
               <img class="pull-right" style="border-radius: 7px; display: inline-block; margin-top: 35px;" src="http://narellesummers.co.uk/Narelle_Summers/-_files/droppedImage_1.png"> 
-              <blockquote class="quote-box-orange pull-left">
-                <p class="quotation-mark">
-                  “
-                </p>
-                <p class="quote-text">
+              <blockquote class="pull-left col-lg-9 col-md-9 col-sm-9" style="margin-top: 35px; display: inline-block; margin-left: 15px;">
                   I went to see Narelle for a specific reason, a specific worry/concern that had been ever increasing in my mind. It had really started to control and stir up my life. I recognised it was all out of proportion in my head, and taking up too much emotional and physical energy, but I didn’t know how to stop it, how to switch it off, how to alter the destructive thought patterns I was having. I had a one hour session with Narelle, which involved talking about the situation and the negative thoughts I was having. Narelle used a technique to remove these thoughts and replace them with positive ones. To embed the positive thoughts Narelle then put me into a deep state of relaxation. It was rather like being in a deep meditation state....As I experienced a deep sense of relaxation I was fully aware of what was happening. The session finished with another short chat focusing on my new thoughts and about the work we had done and how to continue the techniques going forward. Afterwards, I was very relaxed and unconcerned, it was a nice feeling after feeling so much anxiety for so long. I went away and didn't think much about it for a couple of weeks, and just got on with normal life. It was after a couple of weeks that it suddenly struck me, I hadn't given ANY concern or ANY notice even, to the issues that had been giving me great amounts of deep anxiety and sleepless nights for months previously, I had simply stopped worrying about it, or even thinking about it, those pictures had simply gone away, as simple as that. If you have any issues, concerns, big consuming life worries or small ones for that matter, I'd really recommend a session with Narelle, it's like she reset or reprogrammed my thought patterns. It sure beats months of anxiety and endless GP visits for "stress" meds!
                 </p>
                 <hr>
-                <p style="margin-left: 20px;"> Physical Therapist <br>
+                <p> Physical Therapist <br>
                 Huddersfield, West Yorkshire</p>
               </blockquote>
           </div>   
@@ -152,23 +402,23 @@
           <div class="col-lg-5 ml-auto" style="margin-top: 20px; display: inline-block;">
             <ul>
               <li>Anxiety</li>
-              <li>confidence building</li>
-              <li>controlling negative inner chatter</li>
-              <li>empowering</li>
+              <li>Confidence building</li>
+              <li>Controlling negative inner chatter</li>
+              <li>Empowering</li>
               <li>Insomnia</li>        
-              <li>losing weight</li>
-              <li>personal development</li>
-              <li>phobias</li>
+              <li>Losing weight</li>
+              <li>Personal development</li>
+              <li>Phobias</li>
             </ul>
           </div>
           <div class="col-lg-5 mr-auto" style="display: inline-block;">
             <ul>
-              <li>procrastination</li>
-              <li>public speaking</li>
-              <li>stress</li>
-              <li>unwanted feelings anger, frustration, shame, guilt, abandonment and regret</li>
-              <li>relationship anxieties</li>
-              <li>removing your negative feelings attached to your negative memories</li>
+              <li>Procrastination</li>
+              <li>Public speaking</li>
+              <li>Stress</li>
+              <li>Unwanted feelings anger, frustration, shame, guilt, abandonment and regret</li>
+              <li>Relationship anxieties</li>
+              <li>Removing your negative feelings attached to your negative memories</li>
             </ul>
           </div>
           <br><br>
