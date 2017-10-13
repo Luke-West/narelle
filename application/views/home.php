@@ -331,7 +331,7 @@
         <div class="intro-message">
           <h1>Narelle Summers</h1>
           <i><h3 style="margin-top: 15px; margin-left: 10%; display: inline-block;">Emotional Wellbeing Coach</h3></i>
-          <h4 style="margin-top:15px; display: inline-block;  margin-left: 10%;">NLP Master Practitioner and Havening Techniques Practitioner</h4>
+          <h4 style="margin-top:15px; display: inline-block;  margin-left: 10%;">NLP Master Practitioner and Havening Techniques&reg; Practitioner</h4>
         </div>
       </div>
     </header>
@@ -434,15 +434,13 @@
             <div class="clearfix"></div>
             <h2 class="section-heading">My Story</h2>
             <p>&quot;I was overweight, caused by emotional over eating and not happy. I’ve used the techniques myself. Working through my emotional baggage using NLP and Havening to clear out my negatives feelings attached to upsetting memories. I no longer have the need to overeat. Visualising what I would look like, how that would make me feel. Visualising eating small amounts yet feeling full and satisfied and only eating when I was hungry. Changing the images in your head is so powerful and produces positive results.&quot;</p>
+            <img src="<?php echo base_url("/assets/images/narelle_before.png") ?>">
+            <img style="height: 70px;" src="https://maxcdn.icons8.com/Share/icon/p1em/Arrows//long_arrow_right1600.png">
+            <img src="<?php echo base_url("/assets/images/narelle_after.png") ?>">
           </div>
           </div>
       </div>
     </section>
-<!--             <p>&quot;I was overweight, caused by emotional over eating and not happy. I’ve used
-            the techniques myself. Working through my emotional baggage using NLP
-            and Havening to clear out my negatives feelings attached to upsetting
-            memories. I no longer have the need to overeat.&quot;</p>
- -->
 
     <section class="content-section-b" id="wellbeing">
       <div class="container">
@@ -550,7 +548,13 @@
         </div>
       </div>
     </section>
-
+    <div style="margin-left: 80px;">
+      <img style="height: 90px;" src="<?php echo base_url("/assets/images/havening_logo.png") ?>">
+      <img style="height: 90px;" src="<?php echo base_url("/assets/images/nlp-society-logo.jpg") ?>">
+    </div>
+    <div class="col-md-5" style="margin-left: 80px;"> 
+      <p>Narelle Summers is a certified practitioner of Havening Techniques. Havening Techniques is a registered trademark of Ronald Ruden, 15 East 91st Street, New York. <a href="www.havening.org">www.havening.org</a>
+    </div>
     <footer>
       <div class="container">
         <ul class="list-inline">
@@ -580,6 +584,7 @@
   </body>
 </html>
 <script>
+
   $(function(){
     $(".aboutTab").click(function(e){
       e.preventDefault();
