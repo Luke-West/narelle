@@ -165,8 +165,8 @@
     line-height: 1.2;
     color: #666;
     text-align: justify;
-    border-left: 15px solid green;
-    border-right: 2px solid green;
+    border-left: 15px solid #ff1919;
+    border-right: 2px solid #ff1919;
     -moz-box-shadow: 2px 2px 15px #ccc;
     -webkit-box-shadow: 2px 2px 15px #ccc;
     box-shadow: 2px 2px 15px #ccc;
@@ -183,8 +183,8 @@
     line-height: 1.2;
     color: #666;
     text-align: justify;
-    border-left: 15px solid navy;
-    border-right: 2px solid navy;
+    border-left: 15px solid #e55ea2;
+    border-right: 2px solid #e55ea2;
     -moz-box-shadow: 2px 2px 15px #ccc;
     -webkit-box-shadow: 2px 2px 15px #ccc;
     box-shadow: 2px 2px 15px #ccc;
@@ -201,8 +201,8 @@
     line-height: 1.2;
     color: #666;
     text-align: justify;
-    border-left: 15px solid orange;
-    border-right: 2px solid orange;
+    border-left: 15px solid #ffb2b2;
+    border-right: 2px solid #ffb2b2;
     -moz-box-shadow: 2px 2px 15px #ccc;
     -webkit-box-shadow: 2px 2px 15px #ccc;
     box-shadow: 2px 2px 15px #ccc;
@@ -331,7 +331,7 @@
         <div class="intro-message">
           <h1>Narelle Summers</h1>
           <i><h3 style="margin-top: 15px; margin-left: 10%; display: inline-block;">Emotional Wellbeing Coach</h3></i>
-          <h4 style="margin-top:15px; display: inline-block;  margin-left: 10%;">NLP Master Practitioner and Havening Techniques&reg; Practitioner</h4>
+          <h4 style="margin-top:15px; display: inline-block;  margin-left: 10%;">NLP Master Practitioner and Havening Techniques Practitioner</h4>
         </div>
       </div>
     </header>
@@ -343,7 +343,7 @@
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
             <h2 class="section-heading">About Narelle</h2>
-              <p>Narelle is a qualified Havening Techniques Practitioner and a
+              <p>Narelle is a qualified Havening Techniques<small>&reg;</small> Practitioner and a
               qualified Neuro Linguist Programming (NLP) Master Practitioner. Narelle
               has over ten years’ experience working in the NHS, working within
               education and communications training.</p>
@@ -416,7 +416,7 @@
               <li>Procrastination</li>
               <li>Public speaking</li>
               <li>Stress</li>
-              <li>Unwanted feelings anger, frustration, shame, guilt, abandonment and regret</li>
+              <li>Unwanted feelings; anger, frustration, shame, guilt, abandonment and regret</li>
               <li>Relationship anxieties</li>
               <li>Removing your negative feelings attached to your negative memories</li>
             </ul>
