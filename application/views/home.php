@@ -529,10 +529,11 @@
             <p>Narelle’s keynote speech follows her journey about how she was
               overweight, caused by emotional over eating and not being happy. Working
               through her emotional baggage using NLP and Havening techniques Narelle
-              cleared out her negatives feelings attached to upsetting memories.</p>
-              <p>She no longer has the need to overeat and feels fantastic, more confident,
+              cleared out her negatives feelings attached to upsetting memories.<br>
+              She no longer has the need to overeat and feels fantastic, more confident,
               energised, positive and lighter. Hear her story about her battle with weight
               and food.</p>
+              <p>Narelle’s keynote speech is about wellbeing and resilience. Do you want to feel more relaxed and happier? She will reduce your stress levels by showing you techniques which will improve your wellbeing and build up resilience. Narelle feels passionately that everyone wants, and deserves, a better of quality of life.</p>
               <blockquote class="blockquote-green" style="margin-top: 45px;">
                 Narelle’s talk was inspirational and entertaining, through her honesty she
                 made me believe that it is possible to make real and positive changes to my
