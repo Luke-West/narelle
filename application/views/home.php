@@ -7,7 +7,7 @@
     border-top: 1px solid gray;
     color: black;
     height: 375px;
-    background: url('<?php echo base_url("assets/images/background3.png") ?>') no-repeat center center;
+    background: url('<?php echo base_url("assets/images/narelle-background2.jpg") ?>') no-repeat center center;
     background-size: cover;
   }
 
@@ -93,7 +93,7 @@
   }
 
   .banner {
-      background: url('<?php echo base_url("/assets/images/background3.png") ?>') no-repeat center center scroll;
+      background: url('<?php echo base_url("/assets/images/background.png") ?>') no-repeat center center scroll;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       height: 320px;
@@ -330,8 +330,9 @@
       <div class="container">
         <div class="intro-message">
           <h1>Narelle Summers</h1>
-          <i><h3 style="margin-top: 15px; margin-left: 10%; display: inline-block;">Emotional Wellbeing Coach</h3></i>
-          <h4 style="margin-top:15px; display: inline-block;  margin-left: 10%;">NLP Master Practitioner and Havening Techniques Practitioner</h4>
+          <img class="pull-right" style="height: 6.5vw; display: inline-block; padding: 0; top: 0px;" src="<?= base_url('assets/images/unlock_world.png') ?>">
+          <i><h3 style="margin-top: 15px; margin-left: 10%; display: inline-block; padding: 0;">Emotional Wellbeing Coach</h3></i>
+          <h4 style="margin-top:15px; display: inline-block;  margin-left: 10%; padding: 0;">NLP Master Practitioner and Havening Techniques Practitioner</h4>
         </div>
       </div>
     </header>
