@@ -273,7 +273,6 @@
   }
 
 </style>
-</style>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -290,7 +289,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     <link rel="icon" href="<?=base_url()?>/assets/images/unlock_world.png" type="image/gif">
@@ -329,10 +328,14 @@
     <header class="intro-header">
       <div class="container">
         <div class="intro-message">
-          <h1>Narelle Summers</h1>
-          <img class="pull-right" style="height: 6.5vw; display: inline-block; padding: 0; top: 0px;" src="<?= base_url('assets/images/unlock_world.png') ?>">
-          <i><h3 style="margin-top: 15px; margin-left: 10%; display: inline-block; padding: 0;">Emotional Wellbeing Coach</h3></i>
-          <h4 style="margin-top:15px; display: inline-block;  margin-left: 10%; padding: 0;">NLP Master Practitioner and Havening Techniques Practitioner</h4>
+          <img class="img-fluid img-responsive quoteImage" style="height: 75px; border-radius: 30px; max-height: 350px; position: absolute; right: 0px;" src="<?php echo base_url("/assets/images/unlock_world.png") ?>" alt="">
+          <h1 class="text-center" style="display: inline-block;">Narelle Summers</h1>
+          <div>
+            <div class="text-center" style="display: inline-block;">
+              <i><h3 class="text-center" style="font-size: 40px;">Emotional Wellbeing Coach</h3></i>
+              <h4 class="text-center" style="font-size: 25px;">NLP Master Practitioner and Havening Techniques Practitioner</h4>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -340,7 +343,7 @@
     <section class="content-section-a" id="about">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 ml-auto">
+          <div class="col-lg-6 col-sm-8 col-md-7 ml-auto pull-left">
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
             <h2 class="section-heading">About Narelle</h2>
@@ -352,50 +355,56 @@
               want in your life? If so, Narelle will help you unlock your true potential and
               lead you on your first step of your new journey.</p>
           </div>
-          <div class="col-lg-5 mr-auto">
-            <img class="img-fluid" style="border-radius: 30px; height: 350px; margin-left: 70px;" src="<?php echo base_url("/assets/images/narelle.jpg") ?>" alt="">
+          <div class="col-lg-5 col-sm-4 col-xs-4 mr-auto pull-right">
+            <img class="img-fluid img-responsive" style="border-radius: 30px; max-height: 350px;" src="<?php echo base_url("/assets/images/narelle.jpg") ?>" alt="">
           </div>
         </div>
       </div>
     </section>
-
     <section class="content-section-b" id="one_to_one">
-
       <div class="container">
-
-        <div class="row" style="margin-left:50px;">
-          <div>
             <div class="clearfix"></div>
             <h2>One to One session</h2>
             <h4>One to One session - Face to Face in person or via Skype/FaceTime</h4>
           <i><p style="font-size: 20px;">Each session is individually tailored to you, in order to get the best result.</p></i>
-          <div class="quotes container">
-              <img class="pull-right" style="border-radius: 7px; display: inline-block; margin-top: 35px;" src="http://narellesummers.co.uk/Narelle_Summers/-_files/droppedImage.png">
-              <blockquote class="pull-left col-sm-2 col-md-10 col-lg-10" style="margin-top: 50px; display: inline-block;">
-                "Narelle treated me for a long-standing and severe phobia of snakes. I could not even look at a picture of a snake without my stomach churning. After a very short 10-15 minutes Havening session with Narelle, I felt confident enough to touch and handle a very curious corn snake. It felt warm and soft and not at all what I thought it would. Narelle was warm, generous, confident, capable and thoroughly professional. During my session, I became aware of a sensation of wanting to release all that fear I had been carrying around for so long and with Narelle's support and encouragement, I was able to do so. If you are thinking of trying Havening I would urge you to try Havening with Narelle; she is a wonderfully gifted and empathetic healer. Thank you Narelle."
-                </p>
-                <hr>
-                <p class="pull-right"> Nancy Smyth <br>
-                Pre-School Assistant, Hawkhurst</p>
-              </blockquote>
+          <div class="quotes">
+          <div class="row">
+                <img class="pull-left img-responsive quoteImage" style="max-height:150px; border-radius: 7px; display: inline-block; margin-top: 35px;" src="<?php echo base_url("/assets/images/trudy.jpg") ?>">
+                <blockquote class="pull-left col-lg-10 col-md-10 col-sm-12 col-xs-12" style="margin-top: 35px; display: inline-block;">
+                  I had a havening session using FaceTime with Narelle. I was struggling with a feeling of fear that had resurfaced, which after talking to Narelle was more a feeling of terror, and from around 15 years ago. I started the havening with Narelle and it was amazing...the feeling of terror just up and vanished, the last thing I was expecting! I felt safe the whole time, and fully supported. The feeling of relief after only one session, years of fear just washed away. With Narelle you are definitely in safe hands. I am so grateful for my havening session with her, and would not hesitate to recommend her services.
+                  <hr>
+                  <p class="pull-left"> Trudy, <br> New Zealand</p>
+                </blockquote>
+              </div>
+              <div class="row">
+                <blockquote class="pull-left col-lg-10 col-md-10 col-sm-12 col-xs-12" style="margin-top: 50px; display: inline-block;">
+                  Narelle treated me for a long-standing and severe phobia of snakes. I could not even look at a picture of a snake without my stomach churning. After a very short 10-15 minutes Havening session with Narelle, I felt confident enough to touch and handle a very curious corn snake. It felt warm and soft and not at all what I thought it would. Narelle was warm, generous, confident, capable and thoroughly professional. During my session, I became aware of a sensation of wanting to release all that fear I had been carrying around for so long and with Narelle's support and encouragement, I was able to do so. If you are thinking of trying Havening I would urge you to try Havening with Narelle; she is a wonderfully gifted and empathetic healer. Thank you Narelle.
+                  <hr>
+                  <p class="pull-left"> Nancy Smyth <br>
+                  Pre-School Assistant, Hawkhurst</p>
+                </blockquote>
+                <img class="pull-right img-responsive quoteImage" style="max-height:150px; border-radius: 7px; display: inline-block; margin-top: 35px;" src="http://narellesummers.co.uk/Narelle_Summers/-_files/droppedImage.png">
+              </div>
               <div class="clearfix"></div>
-              <img class="pull-left" style="border-radius: 7px; display: inline-block; margin-top: 35px;" src="http://narellesummers.co.uk/Narelle_Summers/-_files/Dorris.jpg">
-              <blockquote class="pull-left col-sm-10 col-md-10 col-lg-10" style="margin-top: 35px; display: inline-block; margin-left: 15px;">
+              <div class="row">
+                <img class="pull-left img-responsive quoteImage" style="border-radius: 7px; display: inline-block; margin-top: 35px; max-height: 130px;" src="http://narellesummers.co.uk/Narelle_Summers/-_files/Dorris.jpg">
+                <blockquote class="pull-left col-lg-10 col-md-10 col-sm-12 col-xs-12" style="margin-top: 35px; display: inline-block;">
                   I had a brain haemorrhage, 10 hours surgery and had a clip put in my brain 11 years ago. I was told I would have headaches most days which I did. Narelle used a NLP technique with me by creating a positive image in my mind of a healthy brain which has helped me remain free from headaches and painkillers. To strengthen my image I was put into a very relaxed state of mind. When I think I feel a headache coming on I think of that positive image and it goes away.
-                </p>
-                <hr>
-                <p class="pull-left"> Doris, Retired<br>
+                  <hr>
+                  <p class="pull-left"> Doris, Retired<br>
                     West Yorkshire</p>
-              </blockquote>       
+                </blockquote>       
+              </div>
               <div class="clearfix"></div>
-              <img class="pull-right" style="border-radius: 7px; display: inline-block; margin-top: 35px;" src="http://narellesummers.co.uk/Narelle_Summers/-_files/droppedImage_1.png"> 
-              <blockquote class="pull-left col-lg-9 col-md-9 col-sm-9" style="margin-top: 35px; display: inline-block; margin-left: 15px;">
-                  I went to see Narelle for a specific reason, a specific worry/concern that had been ever increasing in my mind. It had really started to control and stir up my life. I recognised it was all out of proportion in my head, and taking up too much emotional and physical energy, but I didn’t know how to stop it, how to switch it off, how to alter the destructive thought patterns I was having. I had a one hour session with Narelle, which involved talking about the situation and the negative thoughts I was having. Narelle used a technique to remove these thoughts and replace them with positive ones. To embed the positive thoughts Narelle then put me into a deep state of relaxation. It was rather like being in a deep meditation state....As I experienced a deep sense of relaxation I was fully aware of what was happening. The session finished with another short chat focusing on my new thoughts and about the work we had done and how to continue the techniques going forward. Afterwards, I was very relaxed and unconcerned, it was a nice feeling after feeling so much anxiety for so long. I went away and didn't think much about it for a couple of weeks, and just got on with normal life. It was after a couple of weeks that it suddenly struck me, I hadn't given ANY concern or ANY notice even, to the issues that had been giving me great amounts of deep anxiety and sleepless nights for months previously, I had simply stopped worrying about it, or even thinking about it, those pictures had simply gone away, as simple as that. If you have any issues, concerns, big consuming life worries or small ones for that matter, I'd really recommend a session with Narelle, it's like she reset or reprogrammed my thought patterns. It sure beats months of anxiety and endless GP visits for "stress" meds!
-                </p>
-                <hr>
-                <p> Physical Therapist <br>
-                Huddersfield, West Yorkshire</p>
-              </blockquote>
+              <div class="row">
+                <blockquote class="pull-left col-lg-10 col-md-10 col-sm-12 col-xs-12" style="margin-top: 35px; display: inline-block;">
+                    Life can be challenging enough when you are trying to balance a large family home life and being a working woman. It can create stress, tension and anger. Since I've been to see Narelle and practiced the Havening techniques she taught me in the session my whole life at home and at work has become so much more relaxed and happier. This has had an incredible knock on effect on my business as I have so much more positive energy to utilise in my work place and my business has grown and developed immensely as a result. Thank you so much Narelle you've really transformed my life.
+                  <hr>
+                  <p> Fiona, Presenter<br>
+                  Surrey</p>
+                </blockquote>
+              <img class="pull-right img-responsive quoteImage" style="border-radius: 7px; display: inline-block; margin-top: 35px; max-height: 130px; width: 140px; transform: rotate(90deg);" src="<?php echo base_url("/assets/images/fiona2.JPG") ?>">
+              </div>
           </div>   
           <div class="clearfix"></div>
 
@@ -526,7 +535,9 @@
         <div class="row">
           <div class="text-center">
             <div class="clearfix"></div>
-            <h2 class="section-heading">Professional speaker</h2>
+            <h2 class="section-heading">Professional Speaker</h2>
+            <h4><u>Why Weight?</u></h4>
+            <br>
             <p>Narelle’s keynote speech follows her journey about how she was
               overweight, caused by emotional over eating and not being happy. Working
               through her emotional baggage using NLP and Havening techniques Narelle
@@ -534,27 +545,38 @@
               She no longer has the need to overeat and feels fantastic, more confident,
               energised, positive and lighter. Hear her story about her battle with weight
               and food.</p>
-              <p>Narelle’s keynote speech is about wellbeing and resilience. Do you want to feel more relaxed and happier? She will reduce your stress levels by showing you techniques which will improve your wellbeing and build up resilience. Narelle feels passionately that everyone wants, and deserves, a better of quality of life.</p>
               <blockquote class="blockquote-green" style="margin-top: 45px;">
                 Narelle’s talk was inspirational and entertaining, through her honesty she
                 made me believe that it is possible to make real and positive changes to my
                 life.
-            </blockquote>
-            <blockquote class="blockquote-blue" style="margin-top: 35px;">
-                Loved it! Inspiring! Great energy, informative and really enjoyable.</p>
-            </blockquote>
-            <blockquote class="blockquote-orange" style="margin-top: 35px;">
-                A fantastic talk bringing lots of strands together.
-            </blockquote>
+              </blockquote>
+              <blockquote class="blockquote-blue" style="margin-top: 35px;">
+                  Loved it! Inspiring! Great energy, informative and really enjoyable.</p>
+              </blockquote>
+              <blockquote class="blockquote-orange" style="margin-top: 35px;">
+                  A fantastic talk bringing lots of strands together.
+              </blockquote>
+              <h4><u>Wellbeing</u></h4>
+              <br>
+              <p>Narelle’s keynote speech is about wellbeing and resilience. Do you want to feel more relaxed and happier? She will reduce your stress levels by showing you techniques which will improve your wellbeing and build up resilience. Narelle feels passionately that everyone wants, and deserves, a better of quality of life.</p>
+              <blockquote class="blockquote-green" style="margin-top: 45px;">
+                The wellbeing talk I attended I found very interesting, Narelle is a great speaker and everything she said made sense. It was very powerful learning new techniques have to relax. It definitely made me think about my own wellbeing and I would highly recommend this talk to anybody.</p>
+              </blockquote>
+              <blockquote class="blockquote-blue" style="margin-top: 35px;">
+                I went to Narelle’s Wellbeing talk with my partner and we both found it informative as well as interesting and applicable to everyday life. With Narelle’s excellent and engaging presentation skills, I easily identified with what she was saying about the common stresses we each experience.</p>
+              </blockquote>
+              <blockquote class="blockquote-orange" style="margin-top: 35px;">
+                I was privileged to attend another wellbeing presentation of Narelle’s recently. As ever she was encouraging, helpful and supportive. It’s great to know there are people like Narelle who can do so much to alleviate those problems we all have. The ones that keep us down and hold us back. Highly recommended.</p>
+              </blockquote>
           </div>
         </div>
       </div>
     </section>
-    <div style="margin-left: 80px;">
+    <div>
       <img style="height: 90px;" src="<?php echo base_url("/assets/images/havening_logo.png") ?>">
       <img style="height: 90px;" src="<?php echo base_url("/assets/images/nlp-society-logo.jpg") ?>">
     </div>
-    <div class="col-md-5" style="margin-left: 80px;"> 
+    <div> 
       <p>Narelle Summers is a certified practitioner of Havening Techniques. Havening Techniques is a registered trademark of Ronald Ruden, 15 East 91st Street, New York. <a href="www.havening.org">www.havening.org</a>
     </div>
     <footer>
@@ -623,6 +645,13 @@
         scrollTop: $("#professional_speaker").offset().top
       }, 2000);
     });
+
+    var isMobile = false; //initiate as false
+// device detection
+if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent) 
+    || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(navigator.userAgent.substr(0,4)) || $(window).width() <= 480){ isMobile = true;
+      $(".quoteImage").remove();
+    }
 
   });
 
