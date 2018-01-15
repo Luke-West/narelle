@@ -383,11 +383,11 @@
                   <p class="pull-left"> Nancy Smyth <br>
                   Pre-School Assistant, Hawkhurst</p>
                 </blockquote>
-                <img class="pull-right img-responsive quoteImage" style="max-height:150px; border-radius: 7px; display: inline-block; margin-top: 35px;" src="http://narellesummers.co.uk/Narelle_Summers/-_files/droppedImage.png">
+                <img class="pull-right img-responsive quoteImage" style="max-height:150px; border-radius: 7px; display: inline-block; margin-top: 35px;" src="<?php echo base_url("/assets/images/droppedImage.png") ?>">
               </div>
               <div class="clearfix"></div>
               <div class="row">
-                <img class="pull-left img-responsive quoteImage" style="border-radius: 7px; display: inline-block; margin-top: 35px; max-height: 130px;" src="http://narellesummers.co.uk/Narelle_Summers/-_files/Dorris.jpg">
+                <img class="pull-left img-responsive quoteImage" style="border-radius: 7px; display: inline-block; margin-top: 35px; max-height: 130px;" src="<?php echo base_url("/assets/images/Dorris.jpg") ?>">
                 <blockquote class="pull-left col-lg-10 col-md-10 col-sm-12 col-xs-12" style="margin-top: 35px; display: inline-block;">
                   I had a brain haemorrhage, 10 hours surgery and had a clip put in my brain 11 years ago. I was told I would have headaches most days which I did. Narelle used a NLP technique with me by creating a positive image in my mind of a healthy brain which has helped me remain free from headaches and painkillers. To strengthen my image I was put into a very relaxed state of mind. When I think I feel a headache coming on I think of that positive image and it goes away.
                   <hr>
