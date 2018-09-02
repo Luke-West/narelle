@@ -572,13 +572,15 @@
         </div>
       </div>
     </section>
-    <div>
+    <section class="content-section-b" id="professional_speaker">
+    <div class="container">
       <img style="height: 90px;" src="<?php echo base_url("/assets/images/havening_logo.png") ?>">
       <img style="height: 90px;" src="<?php echo base_url("/assets/images/nlp-society-logo.jpg") ?>">
     </div>
-    <div> 
-      <p>Narelle Summers is a certified practitioner of Havening Techniques. Havening Techniques is a registered trademark of Ronald Ruden, 15 East 91st Street, New York. <a href="www.havening.org">www.havening.org</a>
+    <div class="container"> 
+      <p>Narelle Summers is a certified practitioner of Havening Techniques. Havening Techniques is a registered trademark of Ronald Ruden, 15 East 91st Street, New York. <a href="www.havening.org">www.havening.org</a></p>
     </div>
+    </section>
     <footer>
       <div class="container">
         <ul class="list-inline">
@@ -602,7 +604,8 @@
             <a class="nav-link proSpeakerTab" href="#">Professional Speaker</a>
           </li>
         </ul>
-        <p class="copyright text-muted small">Copyright &copy; Narelle Summers 2017. All Rights Reserved</p>
+        <p class="copyright text-muted small">Copyright &copy; Narelle Summers 2017. All Rights Reserved</p><br>
+        <p class="copyright text-muted small">Developed by Luke West</p>
       </div>
     </footer>
   </body>
